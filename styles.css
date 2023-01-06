@@ -1,8 +1,7 @@
 body {
     background-image: url(images/O.R.R.A-topo-map-blk.png);
-    
     margin: 0;
-    background-color: #cccccc;
+    background-color: #000000;
     height: auto;
     background-position: center;
     background-repeat: no-repeat;
@@ -15,4 +14,6 @@ body {
   } */
   
 
- 
+.btn btn-warning m-1{
+    color: aliceblue;
+}
