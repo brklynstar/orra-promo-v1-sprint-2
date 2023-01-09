@@ -1,8 +1,11 @@
 body {
     background-image: url(images/O.R.R.A-topo-map-blk.png);
-    margin: 0;
+    margin: auto;
     background-color: #000000;
     height: auto;
+    width: 100%;
+    max-width: 960px;
+   
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -69,4 +72,10 @@ body {
     color: white;
     transform: rotateY(180deg);
   }
+
  
+#element {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+}
